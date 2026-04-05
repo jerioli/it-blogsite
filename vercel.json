@@ -1,0 +1,10 @@
+{
+  "name": "cybersafe-blog",
+  "version": "1.0.0",
+  "description": "CyberSafe - A blog about internet security and online safety",
+  "scripts": {
+    "dev": "vite",
+    "build": "echo 'Static HTML - no build needed'",
+    "preview": "python3 -m http.server 8080"
+  }
+}
