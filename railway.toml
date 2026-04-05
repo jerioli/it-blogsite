@@ -1,7 +1,7 @@
 [build]
-builder = "dockerfile"
-dockerfilePath = "./Dockerfile"
+builder = "NIXPACKS"
 
 [deploy]
+startCommand = "python3 -m http.server 8080"
 healthcheckPath = "/"
 restartPolicyType = "ON_FAILURE"

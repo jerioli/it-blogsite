@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CyberSafe - A blog about internet security and online safety",
   "scripts": {
-    "start": "php -S 0.0.0.0:$PORT -t ."
+    "start": "python3 -m http.server 8080"
   },
   "engines": {
     "node": "18.x"
