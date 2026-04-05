@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: cybersafe-blog
-    runtime: php
-    buildCommand: "echo 'PHP app - no build required'"
-    startCommand: "php -S 0.0.0.0:${PORT:-8000} -t ."
-    envVars:
-      - key: PHP_VERSION
-        value: 8.1
