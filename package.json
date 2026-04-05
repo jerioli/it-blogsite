@@ -1,0 +1,11 @@
+{
+  "name": "cybersafe-blog",
+  "version": "1.0.0",
+  "description": "CyberSafe - A blog about internet security and online safety",
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT -t ."
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
