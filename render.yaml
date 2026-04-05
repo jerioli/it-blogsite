@@ -3,7 +3,7 @@ services:
     name: cybersafe-blog
     runtime: php
     buildCommand: "echo 'PHP app - no build required'"
-    startCommand: "apache2-foreground"
+    startCommand: "php -S 0.0.0.0:$PORT -t ."
     envVars:
       - key: PHP_VERSION
         value: 8.1
