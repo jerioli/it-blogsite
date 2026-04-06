@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSafe - Part 1: The Internet Isn't Always Safe</title>
+    <title>CyberSafe - Part 3: How Hackers Trick People</title>
     <meta property="og:image" content="https://bolt.new/static/og_default.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
@@ -11,13 +11,13 @@
   </head>
   <body>
     <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div class="flex justify-between items-center h-16">
           <a
             href="home.html"
             class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-cyan-400">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4343DD;">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
             <span class="font-bold text-lg sm:text-xl">CyberSafe</span>
@@ -27,13 +27,13 @@
           <div class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="home.html"
-              class="hover:text-cyan-400 transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="hover:text-cyan-400 transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
             >
               About Us
             </a>
@@ -41,7 +41,7 @@
 
           <!-- Mobile menu button -->
           <div class="md:hidden">
-            <button id="mobile-menu-button" class="text-white hover:text-cyan-400 focus:outline-none focus:text-cyan-400 p-2">
+            <button id="mobile-menu-button" class="text-white hover:text-[#4343DD] focus:outline-none focus:text-[#4343DD] p-2">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
@@ -54,13 +54,13 @@
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a
               href="home.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-cyan-400 hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-cyan-400 hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
             >
               About Us
             </a>
@@ -87,10 +87,10 @@
     </nav>
 
     <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-cyan-50 py-6 sm:py-8 lg:py-12">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <a
           href="home.html"
-          class="inline-flex items-center text-cyan-600 hover:text-cyan-700 mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
+          class="inline-flex items-center text-[#4343DD] hover:text-[#0C1841] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform">
             <path d="m12 19-7-7 7-7"/>
@@ -101,13 +101,16 @@
 
         <article class="bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
           <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
-            <div class="p-3 sm:p-4 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex-shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-white w-6 h-6 sm:w-8 sm:h-8">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4343DD] to-[#0C1841] rounded-lg flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye text-white w-6 h-6 sm:w-8 sm:h-8">
+                <path d="M2.99902 3.99902C5.976 1.022 10.644 1.022 13.621 3.99902C16.598 6.976 16.598 11.644 13.621 14.621C10.644 17.598 5.976 17.598 2.99902 14.621C0.022 11.644 0.022 6.976 2.99902 3.99902Z"/>
+                <path d="M9.00098 9.00098C9.00098 9.552 9.44898 10 10.001 10C10.553 10 11.001 9.552 11.001 9.00098C11.001 8.449 10.553 8 10.001 8C9.44898 8 9.00098 8.449 9.00098 9.00098Z"/>
+                <path d="M21 21L16.5 16.5"/>
+                <path d="M2.99902 14.621L7.49902 10.121"/>
               </svg>
             </div>
             <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight">
-              Part 1: The Internet Isn't Always Safe
+              Part 3: How Hackers Trick People
             </h1>
           </div>
 
@@ -115,7 +118,7 @@
             <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden shadow-lg">
               <img
                 src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg"
-                alt="Internet Security"
+                alt="How Hackers Trick People"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -123,64 +126,112 @@
 
           <div class="prose prose-sm sm:prose-base md:prose-lg lg:prose-xl max-w-none">
             <p class="text-sm sm:text-base md:text-lg lg:text-xl text-slate-700 leading-relaxed mb-4 sm:mb-6 lg:mb-8">
-              Although the internet is a vast space with great power, it is not always safe and can expose users to various risks. It allows people from different parts of the world to connect, provides instant access to information, and makes communication easier. It also helps individuals carry out daily activities such as shopping, learning, and working. However, despite these advantages, the internet presents several dangers that can affect users of all ages. Many people are unaware that they can be exposed to online risks simply by using the internet.
+              Hackers don't always rely on advanced technical skills to break into systems. More often, they use social engineering, a method of tricking people into giving away sensitive information like passwords, OTPs, bank details, or account access.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg lg:text-xl text-slate-700 leading-relaxed mb-4 sm:mb-6 lg:mb-8">
-              One of the major risks linked to internet use is cyber threats, which include hacking, phishing, malware, and identity theft. Hackers use different strategies to deceive users into revealing sensitive information such as passwords, bank details, and personal data. In addition, social media platforms can become risky when users overshare personal information, making them vulnerable to online threats.
+              Instead of "hacking computers," they hack human behavior by using emotions such as fear, urgency, curiosity, or trust. Common methods include phishing emails, fake login pages, scam messages, and impersonation (pretending to be a bank, delivery service, or even a friend).
             </p>
 
-            <p class="text-sm sm:text-base md:text-lg lg:text-xl text-slate-700 leading-relaxed mb-6 sm:mb-8 lg:mb-10">
-              Furthermore, because the internet is not always a controlled environment, harmful content can spread easily. This includes misinformation or fake news, explicit material, and cyberbullying. As a result, it is important for users to develop digital awareness and practice critical thinking when consuming online content. Understanding these risks is the first step toward becoming a responsible and safe internet user.
+            <p class="text-sm sm:text-base md:text-lg lg:text-xl text-slate-700 leading-relaxed mb-4 sm:mb-6 lg:mb-8">
+              For example, a person may receive a message saying their account will be locked unless they click a link immediately. That pressure can lead someone to enter their details into a fake website, giving hackers full access.
             </p>
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 mt-8 sm:mt-10 lg:mt-12">Real-World Application</h2>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              In everyday life, people interact with the internet in ways that may unknowingly expose them to various risks. Many individuals encounter online threats such as malware, fake websites, and deceptive messages that can compromise personal information. Engaging with these threats may lead to serious consequences, including data breaches, privacy violations, or financial loss.
+              In everyday life, hackers don't just target systems—they target people's emotions. They create situations that feel real, urgent, and personal.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Another common situation involves the use of social media. Many users share photos, real-time locations, and personal details without fully understanding who can access this information. For example, posting that you are currently at a specific place or tagging your exact location can allow strangers to track your movements. In some cases, a stalker may use this information to follow you or locate your home, putting your personal safety at risk.
+              For instance, someone may receive a message from a "friend" asking for help in an emergency. Because of trust and concern, they send money immediately—only to find out later that the account was hacked. In this case, it wasn't technology that failed, but human emotion.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              To stay safe online, individuals must practice responsible internet habits. These include creating strong passwords, avoiding suspicious websites, limiting what you share publicly, and verifying the credibility of information sources. By applying these safety measures in daily life, users can reduce the risk of becoming victims of online threats.
+              In online buying and selling, scammers often rush their victims. They might say, "Pay now or the item will be gone," or "Send this first so I can process your order." This pressure makes people act fast without thinking, leading to poor decisions.
+            </p>
+
+            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
+              Curiosity is also a powerful tool. A simple message like "Is this you?" with a link can make someone click instantly. That one click can give hackers access to personal accounts and information.
+            </p>
+
+            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
+              These situations prove one thing: hackers succeed when people react without thinking. The more we let fear, urgency, or curiosity control us, the more vulnerable we become. That's why staying alert is not just about knowledge—it's about discipline. Pausing, thinking, and verifying first can make all the difference between being safe and becoming a victim.
             </p>
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 mt-6 sm:mt-8">Author's Reflection</h2>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Reflecting on this topic, I have come to realize how important it is to be cautious and responsible when using the internet. Its convenience and accessibility can sometimes lead to carelessness, causing users to overlook potential risks. However, understanding that the internet is not always a safe space encourages me to be more mindful of my actions and the content I share online.
+              As someone preparing for a future career in business and marketing, I've realized that cybersecurity is not just a technical concern—it is a personal responsibility. In a world where most transactions, communication, and data are handled online, one careless action can lead to serious consequences.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              In my future career, I expect to rely heavily on the internet for handling sensitive information, communicating with clients, and using digital systems. Because of this, it is essential for me to ensure that proper safety measures are in place. Being knowledgeable about online security will help protect not only myself but also the people I work with.
+              This topic made me more aware that not all threats are obvious. Sometimes, they come in simple messages, familiar names, or situations that feel urgent and real. Because of this, I've learned the importance of slowing down, thinking clearly, and not letting emotions control my decisions online.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Additionally, I see it as part of my responsibility to promote awareness of internet safety in my future profession. By encouraging others to practice responsible online behavior and stay informed about digital risks, I can contribute to building a safer and more professional online environment.
+              In the future, I know that I will be handling sensitive information, whether it involves clients, company data, or financial transactions. Being mindful and cautious will not only protect me but also the people and organizations I work with.
             </p>
 
-            <div class="bg-slate-900 text-white p-4 sm:p-6 rounded-xl">
+            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
+              More than anything, this has taught me that staying safe online is a daily habit. It is about being alert, disciplined, and responsible in every click, every message, and every decision.
+            </p>
+
+            <div class="bg-slate-900 text-white p-4 sm:p-6 rounded-xl mt-6">
               <div class="flex flex-col sm:flex-row items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 lucide lucide-lock text-cyan-400 mt-1 flex-shrink-0">
-                  <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
-                  <circle cx="12" cy="16" r="1"/>
-                  <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 lucide lucide-eye text-orange-400 mt-1 flex-shrink-0">
+                  <path d="M2.99902 3.99902C5.976 1.022 10.644 1.022 13.621 3.99902C16.598 6.976 16.598 11.644 13.621 14.621C10.644 17.598 5.976 17.598 2.99902 14.621C0.022 11.644 0.022 6.976 2.99902 3.99902Z"/>
+                  <path d="M9.00098 9.00098C9.00098 9.552 9.44898 10 10.001 10C10.553 10 11.001 9.552 11.001 9.00098C11.001 8.449 10.553 8 10.001 8C9.44898 8 9.00098 8.449 9.00098 9.00098Z"/>
+                  <path d="M21 21L16.5 16.5"/>
+                  <path d="M2.99902 14.621L7.49902 10.121"/>
                 </svg>
                 <div>
                   <p class="text-xs sm:text-sm md:text-base text-slate-200 italic mb-2">
-                    "In a place where anyone can hide behind a screen, one careless moment online can have lasting consequences"
+                    "Stay curious, stay connected—but most importantly, stay protected."
                   </p>
-                  <p class="text-cyan-300 text-xs sm:text-sm font-semibold">
-                    — Lorin Genesis Abuedo
+                  <p class="text-orange-300 text-xs sm:text-sm font-semibold">
+                    — Micaella Paguiran
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </article>
+
+        <!-- Blog Pagination -->
+        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4343DD]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
+          <div class="flex justify-between flex-1 sm:hidden">
+            <a href="part2.html" class="relative inline-flex items-center px-4 py-3 mr-3 text-sm font-semibold text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 transform hover:scale-105 transition-all duration-200 shadow-md">
+              Previous
+            </a>
+            <a href="part4.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4343DD] to-[#0C1841] rounded-lg hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200 shadow-md">
+              Next
+            </a>
+          </div>
+          <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
+            <div>
+              <p class="text-sm font-medium text-slate-600 bg-slate-100 px-3 py-1 rounded-full">
+                Part 3 of 6
+              </p>
+            </div>
+            <div>
+              <nav class="relative z-0 inline-flex rounded-lg shadow-md overflow-hidden" aria-label="Pagination">
+                <a href="part2.html" class="relative inline-flex items-center px-4 py-3 bg-white border border-slate-300 text-slate-700 text-sm font-semibold hover:bg-slate-50 transform hover:scale-105 transition-all duration-200 rounded-l-lg">
+                  <svg class="mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  Common Cyber Threats
+                </a>
+                <a href="part4.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4343DD] to-[#0C1841] text-white text-sm font-semibold hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200">
+                  Next: Spot the Warning Signs
+                  <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </body>

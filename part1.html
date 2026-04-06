@@ -11,13 +11,13 @@
   </head>
   <body>
     <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div class="flex justify-between items-center h-16">
           <a
             href="home.html"
             class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-cyan-400">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4343DD;">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
             <span class="font-bold text-lg sm:text-xl">CyberSafe</span>
@@ -27,13 +27,13 @@
           <div class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="home.html"
-              class="hover:text-cyan-400 transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="hover:text-cyan-400 transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
             >
               About Us
             </a>
@@ -41,7 +41,7 @@
 
           <!-- Mobile menu button -->
           <div class="md:hidden">
-            <button id="mobile-menu-button" class="text-white hover:text-cyan-400 focus:outline-none focus:text-cyan-400 p-2">
+            <button id="mobile-menu-button" class="text-white hover:text-[#4343DD] focus:outline-none focus:text-[#4343DD] p-2">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
@@ -54,13 +54,13 @@
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a
               href="home.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-cyan-400 hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-cyan-400 hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
             >
               About Us
             </a>
@@ -87,10 +87,10 @@
     </nav>
 
     <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-cyan-50 py-6 sm:py-8 lg:py-12">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+      <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <a
           href="home.html"
-          class="inline-flex items-center text-cyan-600 hover:text-cyan-700 mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
+          class="inline-flex items-center text-[#4343DD] hover:text-[#0C1841] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform">
             <path d="m12 19-7-7 7-7"/>
@@ -101,7 +101,7 @@
 
         <article class="bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
           <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
-            <div class="p-3 sm:p-4 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex-shrink-0">
+            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4343DD] to-[#0C1841] rounded-lg flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-white w-6 h-6 sm:w-8 sm:h-8">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
               </svg>
@@ -181,6 +181,32 @@
             </div>
           </div>
         </article>
+
+        <!-- Blog Pagination -->
+        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4343DD]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
+          <div class="flex justify-between flex-1 sm:hidden">
+            <a href="part2.html" class="relative inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4343DD] to-[#0C1841] rounded-lg hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200 shadow-md">
+              Next
+            </a>
+          </div>
+          <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
+            <div>
+              <p class="text-sm font-medium text-slate-600 bg-slate-100 px-3 py-1 rounded-full">
+                Part 1 of 6
+              </p>
+            </div>
+            <div>
+              <nav class="relative z-0 inline-flex rounded-lg shadow-md overflow-hidden" aria-label="Pagination">
+                <a href="part2.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4343DD] to-[#0C1841] text-white text-sm font-semibold hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200">
+                  Next: Common Cyber Threats
+                  <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </body>
