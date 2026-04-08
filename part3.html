@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSafe - Part 3: How Hackers Trick People</title>
+    <title>CyberSafe - How Hackers Trick People</title>
     <meta property="og:image" content="https://bolt.new/static/og_default.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+      h1, h2, h3 { font-family: 'Impact', sans-serif; font-weight: bold; font-style: normal; }
+    </style>
   </head>
   <body>
-    <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-[#06141b] text-white shadow-lg sticky top-0 z-50">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div class="flex justify-between items-center h-16">
           <a
             href="home.html"
             class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4343DD;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4a5c6a;">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
             <span class="font-bold text-lg sm:text-xl">CyberSafe</span>
@@ -27,13 +31,13 @@
           <div class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="home.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               About Us
             </a>
@@ -41,7 +45,7 @@
 
           <!-- Mobile menu button -->
           <div class="md:hidden">
-            <button id="mobile-menu-button" class="text-white hover:text-[#4343DD] focus:outline-none focus:text-[#4343DD] p-2">
+            <button id="mobile-menu-button" class="text-white hover:text-[#4a5c6a] focus:outline-none focus:text-[#4a5c6a] p-2">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
@@ -50,17 +54,17 @@
         </div>
 
         <!-- Mobile Navigation Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 mt-2 rounded-lg shadow-lg">
+        <div id="mobile-menu" class="hidden md:hidden bg-[#11212d] mt-2 rounded-lg shadow-lg">
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a
               href="home.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4a5c6a] hover:bg-[#253745] transition-colors text-white"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4a5c6a] hover:bg-[#253745] transition-colors text-white"
             >
               About Us
             </a>
@@ -86,11 +90,11 @@
       </script>
     </nav>
 
-    <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-cyan-50 py-6 sm:py-8 lg:py-12">
+    <div class="min-h-screen bg-gradient-to-b from-[#ccd0cf] via-[#9babab] to-[#06141b] py-6 sm:py-8 lg:py-12">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <a
           href="home.html"
-          class="inline-flex items-center text-[#4343DD] hover:text-[#0C1841] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
+          class="inline-flex items-center text-[#4a5c6a] hover:text-[#06141b] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform">
             <path d="m12 19-7-7 7-7"/>
@@ -99,9 +103,9 @@
           Back to Home
         </a>
 
-        <article class="bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
-          <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
-            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4343DD] to-[#0C1841] rounded-lg flex-shrink-0">
+        <article class="bg-[#ccd0cf] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 border border-[#4a5c6a]">
+          <div class="flex flex-row items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
+            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4a5c6a] to-[#06141b] rounded-lg flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye text-white w-6 h-6 sm:w-8 sm:h-8">
                 <path d="M2.99902 3.99902C5.976 1.022 10.644 1.022 13.621 3.99902C16.598 6.976 16.598 11.644 13.621 14.621C10.644 17.598 5.976 17.598 2.99902 14.621C0.022 11.644 0.022 6.976 2.99902 3.99902Z"/>
                 <path d="M9.00098 9.00098C9.00098 9.552 9.44898 10 10.001 10C10.553 10 11.001 9.552 11.001 9.00098C11.001 8.449 10.553 8 10.001 8C9.44898 8 9.00098 8.449 9.00098 9.00098Z"/>
@@ -110,15 +114,15 @@
               </svg>
             </div>
             <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight">
-              Part 3: How Hackers Trick People
+              How Hackers Trick People
             </h1>
           </div>
 
           <div class="mb-6 sm:mb-8 lg:mb-10">
-            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden shadow-lg">
+            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg"
-                alt="How Hackers Trick People"
+                src="assets/hht.png"
+                alt="HHT Image 1"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -139,24 +143,20 @@
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 mt-8 sm:mt-10 lg:mt-12">Real-World Application</h2>
 
+            <div class="flex justify-center my-6">
+              <img
+                src="assets/hht (2).png"
+                alt="HHT Image 2"
+                class="w-full max-w-md h-40 sm:h-48 md:h-56 object-cover rounded-lg"
+              />
+            </div>
+
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              In everyday life, hackers don't just target systems—they target people's emotions. They create situations that feel real, urgent, and personal.
+              Not all cyberattacks rely on breaking into systems—many succeed because people are unknowingly persuaded to give access themselves. In the Philippines, hackers commonly use deception techniques that make their messages appear normal, friendly, or even helpful. These may include pretending to be a friend in need, a recruiter offering a job, or a delivery service asking for confirmation. By blending in with everyday online activities, scammers make it easier for individuals to lower their guard and respond without suspicion.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              For instance, someone may receive a message from a "friend" asking for help in an emergency. Because of trust and concern, they send money immediately—only to find out later that the account was hacked. In this case, it wasn't technology that failed, but human emotion.
-            </p>
-
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              In online buying and selling, scammers often rush their victims. They might say, "Pay now or the item will be gone," or "Send this first so I can process your order." This pressure makes people act fast without thinking, leading to poor decisions.
-            </p>
-
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Curiosity is also a powerful tool. A simple message like "Is this you?" with a link can make someone click instantly. That one click can give hackers access to personal accounts and information.
-            </p>
-
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              These situations prove one thing: hackers succeed when people react without thinking. The more we let fear, urgency, or curiosity control us, the more vulnerable we become. That's why staying alert is not just about knowledge—it's about discipline. Pausing, thinking, and verifying first can make all the difference between being safe and becoming a victim.
+              For instance, the Philippine National Police Anti-Cybercrime Group has reported cases where scammers impersonate known contacts or create fake social media accounts to gain trust. Victims are often convinced to click links, share verification codes, or send money because the request feels personal or urgent. In several incidents, hackers used hacked accounts to message friends and relatives, making the scam even more believable. These situations show that hackers do not just rely on technology—they rely on understanding human behavior, which makes awareness and critical thinking essential in staying safe online.
             </p>
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 mt-6 sm:mt-8">Author's Reflection</h2>
@@ -199,12 +199,12 @@
         </article>
 
         <!-- Blog Pagination -->
-        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4343DD]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
+        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4a5c6a]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl" aria-label="Pagination">
           <div class="flex justify-between flex-1 sm:hidden">
             <a href="part2.html" class="relative inline-flex items-center px-4 py-3 mr-3 text-sm font-semibold text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 transform hover:scale-105 transition-all duration-200 shadow-md">
               Previous
             </a>
-            <a href="part4.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4343DD] to-[#0C1841] rounded-lg hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200 shadow-md">
+            <a href="part4.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4a5c6a] to-[#06141b] rounded-lg hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200 shadow-md">
               Next
             </a>
           </div>
@@ -222,7 +222,7 @@
                   </svg>
                   Common Cyber Threats
                 </a>
-                <a href="part4.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4343DD] to-[#0C1841] text-white text-sm font-semibold hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200">
+                <a href="part4.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4a5c6a] to-[#06141b] text-white text-sm font-semibold hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200">
                   Next: Spot the Warning Signs
                   <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />

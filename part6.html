@@ -1,50 +1,56 @@
 <!doctype html>
+ 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSafe - Part 6: Quick Cyber Security Tips</title>
+    <title>CyberSafe - Quick Cyber Security Tips</title>
     <meta property="og:image" content="https://bolt.new/static/og_default.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Arbutus+Slab&family=Verdana:wght@400;700&family=Adamina&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <style>
+      h1, h2, h3 { font-family: 'Impact', sans-serif; font-weight: bold; font-style: normal; }
       .custom-h1 {
-        font-family: 'Esteban', serif;
+        font-family: 'Gondens', serif;
+        font-weight: 900;
         font-size: 70px;
-        color: #FFB32E;
+        color: #1a1a1a;
         line-height: 1.1;
         margin-bottom: 1rem;
+        letter-spacing: -1px;
       }
       .custom-h2 {
-        font-family: 'Arbutus Slab', serif;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
         font-size: 50px;
-        color: #FFDC9F;
+        color: #2a2a2a;
         line-height: 1.2;
         margin-bottom: 1rem;
+        letter-spacing: -0.5px;
       }
       .custom-h3 {
-        font-family: 'Arbutus Slab', serif;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
         font-size: 35px;
-        color: #FFDC9F;
+        color: #333333;
         line-height: 1.3;
         margin-bottom: 0.75rem;
       }
       .custom-paragraph {
-        font-family: 'Verdana', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         color: #020101;
         line-height: 1.6;
         margin-bottom: 1.2rem;
       }
       .custom-author {
-        font-family: 'Adamina', serif;
+        font-family: 'Poppins', sans-serif;
         font-style: italic;
+        font-weight: 600;
         font-size: 15px;
-        color: #4343DD;
+        color: #4a5c6a;
       }
       .icon-primary {
         color: #4343DD;
@@ -110,14 +116,14 @@
 
   </head>
   <body>
-    <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-[#06141b] text-white shadow-lg sticky top-0 z-50">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div class="flex justify-between items-center h-16">
           <a
             href="home.html"
             class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4343DD;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4a5c6a;">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
             <span class="font-bold text-lg sm:text-xl">CyberSafe</span>
@@ -127,13 +133,13 @@
           <div class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="home.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               About Us
             </a>
@@ -141,7 +147,7 @@
 
           <!-- Mobile menu button -->
           <div class="md:hidden">
-            <button id="mobile-menu-button" class="text-white hover:text-[#4343DD] focus:outline-none focus:text-[#4343DD] p-2">
+            <button id="mobile-menu-button" class="text-white hover:text-[#4a5c6a] focus:outline-none focus:text-[#4a5c6a] p-2">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
@@ -150,17 +156,17 @@
         </div>
 
         <!-- Mobile Navigation Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 mt-2 rounded-lg shadow-lg">
+        <div id="mobile-menu" class="hidden md:hidden bg-[#11212d] mt-2 rounded-lg shadow-lg">
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a
               href="home.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4a5c6a] hover:bg-[#253745] transition-colors text-white"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4a5c6a] hover:bg-[#253745] transition-colors text-white"
             >
               About Us
             </a>
@@ -186,11 +192,11 @@
       </script>
     </nav>
 
-    <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-6 sm:py-8 lg:py-12">
+    <div class="min-h-screen bg-gradient-to-b from-[#ccd0cf] via-[#9babab] to-[#06141b] py-6 sm:py-8 lg:py-12">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <a
           href="home.html"
-          class="inline-flex items-center text-[#4343DD] hover:text-[#0C1841] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
+          class="inline-flex items-center text-[#4a5c6a] hover:text-[#06141b] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform">
             <path d="m12 19-7-7 7-7"/>
@@ -199,23 +205,23 @@
           Back to Home
         </a>
 
-        <article class="bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
-          <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
-            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4343DD] to-[#0C1841] rounded-lg flex-shrink-0">
+        <article class="bg-[#ccd0cf] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 border border-[#4a5c6a]">
+          <div class="flex flex-row items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
+            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4a5c6a] to-[#06141b] rounded-lg flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap text-white w-6 h-6 sm:w-8 sm:h-8">
                 <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
               </svg>
             </div>
             <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight">
-              Part 6: Building a CyberSafe Culture
+              Quick Cyber Safety Tips
             </h1>
           </div>
 
           <div class="mb-6 sm:mb-8 lg:mb-10">
-            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden shadow-lg">
+            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg"
-                alt="Building a CyberSafe Culture"
+                src="assets/cyber.png"
+                alt="Cyber Image 1"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -234,50 +240,50 @@
             <div class="tips-grid grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 mb-8">
               <!-- Column 1 -->
               <div class="space-y-6">
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Think Before You Click</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Think Before You Click</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Not all links are safe and can be trusted. Take a moment to double check first before clicking, whether the link comes from an email, message, or social media post. If it is something unusual, it's best not to open it.
                   </p>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Create Strong and Unique Passwords</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Create Strong and Unique Passwords</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Make passwords that are difficult to guess by combining letters, numbers, and symbols. It will be better not to use the same password across multiple accounts to prevent hackers from accessing everything at once.
                   </p>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Turn On Extra Security</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Turn On Extra Security</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Enable features like two-factor authentication, if possible. This can add another layer of security by requiring a second verification step before it allows you to log in.
                   </p>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Keep Your Devices Updated</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Keep Your Devices Updated</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Do not ignore notifications wherein it requires you to update your apps, software, and devices because it does matter. It might be annoying, but it helps in fixing security problems and protects you from possible risks.
                   </p>
                 </div>
@@ -285,90 +291,103 @@
 
               <!-- Column 2 -->
               <div class="space-y-6">
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Be Careful with What You Share</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Be Careful with What You Share</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Sharing too much personal information on social media can put you at risk. Even simple details about the things you like and what you usually do can be used by wrong people. It is very important to pause and think first before posting anything.
                   </p>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-6.938-6.49a5.5 5.5 0 019.876 0m-9.876 0a5.5 5.5 0 00-.061 6.9m.061-6.9A5.5 5.5 0 0112 7.5"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Be Careful with Public Wi-Fi</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Be Careful with Public Wi-Fi</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     It is very convenient if there is free Wi-Fi especially when you are outside, but it is not always safe. Public networks can easily be accessed by others which means that your personal information is not safe. Avoid opening important accounts especially bank apps when you're connected to public networks.
                   </p>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Always Log Out on Shared Devices</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Always Log Out on Shared Devices</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Make it a habit and always check if you have logged out of a device that is not yours. It seems like a small step, but it's to protect you and prevent others from getting access to your information.
                   </p>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-[#ccd0cf] border border-[#4a5c6a] rounded-xl p-5">
                   <div class="flex items-center mb-3">
-                    <svg class="w-6 h-6 mr-3 icon-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-6 h-6 mr-3 text-[#4a5c6a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
                     </svg>
-                    <h3 class="custom-h3 text-blue-800">Don't Trust Unknown Messages</h3>
+                    <h3 class="custom-h3 text-[#06141b]">Don't Trust Unknown Messages</h3>
                   </div>
-                  <p class="custom-paragraph text-slate-700">
+                  <p class="custom-paragraph text-[#253745]">
                     Always be cautious of messages you receive from unknown senders especially if it contain links and is routing you to sign in or claim anything. These are fraudulent acts and might further ask for personal information, money, and might also act as someone you knew. If something feels off in the message, just delete and ignore it.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-xl p-6 mt-8 mb-8 shadow-lg">
-              <h2 class="custom-h2 text-amber-800 mb-4">Quick Reminder</h2>
-              <p class="custom-paragraph text-amber-900">
+            <div class="bg-[#9babab] border border-[#4a5c6a] rounded-xl p-6 mt-8 mb-8">
+              <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#06141b] mb-4" style="font-family: 'Impact', sans-serif;">Quick Reminder</h2>
+              <p class="custom-paragraph text-[#253745]">
                 It doesn't require you to be an expert or skilled to stay safe online. Most of it just comes down to being careful, alert, and being responsible with whatever activity you do online.
               </p>
             </div>
 
-            <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 mt-8 sm:mt-10 lg:mt-12">Real-World Application</h2>
+            <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#06141b] mb-4 sm:mb-6 mt-8 sm:mt-10 lg:mt-12">Real-World Application</h2>
 
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              These cyber safety tips aren't just rules—they reflect real-life situations we encounter online every day. For instance, students often receive emails claiming to be from their school, which can trick them into sharing login details. Social media users sometimes overshare personal information, making it easier for scammers to guess passwords or impersonate them. Even simple actions like pausing before connecting to public Wi-Fi or logging out of a friend's device can prevent potential problems. Applying these habits helps us navigate the digital world confidently, keeping our personal information and online interactions safe from real threats.
+            <div class="flex justify-center my-6">
+              <img
+                src="assets/cyber (2).png"
+                alt="Cyber Image 2"
+                class="w-full max-w-md h-40 sm:h-48 md:h-56 object-cover rounded-lg"
+              />
+            </div>
+
+            <p class="text-sm sm:text-base md:text-lg text-[#253745] leading-relaxed mb-4 sm:mb-6">
+              In today's digital lifestyle, practicing simple cyber safety habits can make a big difference in protecting personal information. In the Philippines, many online incidents could have been avoided if users followed basic precautions such as creating strong passwords, enabling two-factor authentication, and avoiding suspicious links. These small but consistent actions serve as the first line of defense against common online threats.
             </p>
 
-            <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 mt-6 sm:mt-8">Author's Reflection</h2>
+            <p class="text-sm sm:text-base md:text-lg text-[#253745] leading-relaxed mb-4 sm:mb-6">
+              According to the Department of Information and Communications Technology, users are encouraged to regularly update their passwords, verify the legitimacy of websites, and be cautious when using public Wi-Fi networks. Reports and advisories have shown that individuals who neglect these practices are more vulnerable to hacking, identity theft, and financial loss. By applying these quick safety tips in everyday online activities, users can significantly reduce their risk and maintain better control over their digital security.
+            </p>
 
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#06141b] mb-4 mt-6 sm:mt-8">Author's Reflection</h2>
+
+            <p class="text-sm sm:text-base md:text-lg text-[#253745] leading-relaxed mb-4 sm:mb-6">
               Writing about cyber safety made me realize how easy it is to overlook the small habits that protect us online. I thought about my own experiences—how I sometimes almost clicked suspicious links, reused passwords, or connected to public Wi-Fi without caution. These moments reminded me that even simple carelessness can have real consequences, like stolen accounts or personal information being exposed. It made me see that staying safe online isn't about being a tech expert; it's about awareness, responsibility, and consistently practicing small, smart habits.
             </p>
 
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
+            <p class="text-sm sm:text-base md:text-lg text-[#253745] leading-relaxed mb-4 sm:mb-6">
               I also learned that these actions don't just protect us—they give peace of mind. Pausing before sharing personal info, double-checking links, logging out of shared devices, or turning on extra security may seem minor, but they add up to real protection. Reflecting on this made me feel more empowered to take control of my own digital life. I hope these tips inspire others to do the same, because staying safe online isn't just about technology—it's about valuing your privacy, your accounts, and ultimately, yourself.
             </p>
 
-            <div class="bg-slate-900 text-white p-4 sm:p-6 rounded-xl">
+            <div class="bg-[#06141b] text-white p-4 sm:p-6 rounded-xl border border-[#4a5c6a]">
               <div class="flex flex-col sm:flex-row items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 lucide lucide-zap text-cyan-400 mt-1 flex-shrink-0">
-                  <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 lucide lucide-lock text-[#4a5c6a] mt-1 flex-shrink-0">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
                 </svg>
                 <div>
-                  <p class="text-xs sm:text-sm md:text-base text-slate-200 italic mb-2">
+                  <p class="text-xs sm:text-sm md:text-base text-[#9babab] italic mb-2">
                     "The internet may be limitless—but your awareness is your greatest protection"
                   </p>
-                  <p class="text-cyan-300 text-xs sm:text-sm font-semibold">
-                    — Denise Angelique L. Ofrasio
+                  <p class="text-[#4a5c6a] text-xs sm:text-sm font-semibold">
+                    -Denise Angelique Ofrasio
                   </p>
                 </div>
               </div>
@@ -377,12 +396,12 @@
         </article>
 
         <!-- Blog Pagination -->
-        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4343DD]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
+        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4a5c6a]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
           <div class="flex justify-between flex-1 sm:hidden">
             <a href="part5.html" class="relative inline-flex items-center px-4 py-3 mr-3 text-sm font-semibold text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 transform hover:scale-105 transition-all duration-200 shadow-md">
               Previous
             </a>
-            <a href="about.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4343DD] to-[#0C1841] rounded-lg hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200 shadow-md">
+            <a href="about.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4a5c6a] to-[#06141b] rounded-lg hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200 shadow-md">
               Next
             </a>
           </div>
@@ -400,7 +419,7 @@
                   </svg>
                   How to Protect Yourself Online
                 </a>
-                <a href="about.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4343DD] to-[#0C1841] text-white text-sm font-semibold hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200">
+                <a href="about.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4a5c6a] to-[#06141b] text-white text-sm font-semibold hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200">
                   Next: About Us
                   <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />

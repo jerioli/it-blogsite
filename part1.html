@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSafe - Part 1: The Internet Isn't Always Safe</title>
+    <title>CyberSafe - The Internet Isn't Always Safe</title>
     <meta property="og:image" content="https://bolt.new/static/og_default.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+      h1, h2, h3 { font-family: 'Impact', sans-serif; font-weight: bold; font-style: normal; }
+    </style>
   </head>
   <body>
-    <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-[#06141b] text-white shadow-lg sticky top-0 z-50">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div class="flex justify-between items-center h-16">
           <a
             href="home.html"
             class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4343DD;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4a5c6a;">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
             <span class="font-bold text-lg sm:text-xl">CyberSafe</span>
@@ -27,13 +31,13 @@
           <div class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="home.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               About Us
             </a>
@@ -86,11 +90,11 @@
       </script>
     </nav>
 
-    <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-cyan-50 py-6 sm:py-8 lg:py-12">
+    <div class="min-h-screen bg-gradient-to-b from-[#ccd0cf] via-[#9babab] to-[#06141b] py-6 sm:py-8 lg:py-12">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <a
           href="home.html"
-          class="inline-flex items-center text-[#4343DD] hover:text-[#0C1841] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
+          class="inline-flex items-center text-[#4a5c6a] hover:text-[#06141b] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform">
             <path d="m12 19-7-7 7-7"/>
@@ -99,23 +103,25 @@
           Back to Home
         </a>
 
-        <article class="bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
-          <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
-            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4343DD] to-[#0C1841] rounded-lg flex-shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield text-white w-6 h-6 sm:w-8 sm:h-8">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+        <article class="bg-[#ccd0cf] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 border border-[#4a5c6a]">
+          <div class="flex flex-row items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
+            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4a5c6a] to-[#06141b] rounded-lg flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-circle text-white w-6 h-6 sm:w-8 sm:h-8">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="m15 9-6 6"/>
+                <path d="m9 9 6 6"/>
               </svg>
             </div>
             <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight">
-              Part 1: The Internet Isn't Always Safe
+              The Internet Isn't Always Safe
             </h1>
           </div>
 
           <div class="mb-6 sm:mb-8 lg:mb-10">
-            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden shadow-lg">
+            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg"
-                alt="Internet Security"
+                src="assets/isnas.png"
+                alt="Isnas Image 1"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -130,25 +136,37 @@
               One of the major risks linked to internet use is cyber threats, which include hacking, phishing, malware, and identity theft. Hackers use different strategies to deceive users into revealing sensitive information such as passwords, bank details, and personal data. In addition, social media platforms can become risky when users overshare personal information, making them vulnerable to online threats.
             </p>
 
-            <p class="text-sm sm:text-base md:text-lg lg:text-xl text-slate-700 leading-relaxed mb-6 sm:mb-8 lg:mb-10">
-              Furthermore, because the internet is not always a controlled environment, harmful content can spread easily. This includes misinformation or fake news, explicit material, and cyberbullying. As a result, it is important for users to develop digital awareness and practice critical thinking when consuming online content. Understanding these risks is the first step toward becoming a responsible and safe internet user.
-            </p>
-
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 mt-8 sm:mt-10 lg:mt-12">Real-World Application</h2>
 
+            <div class="flex justify-center my-6">
+              <img
+                src="assets/isnas1.JPG"
+                alt="Isnas Image 2"
+                class="w-full max-w-md h-40 sm:h-48 md:h-56 object-cover rounded-lg"
+              />
+            </div>
+
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              In everyday life, people interact with the internet in ways that may unknowingly expose them to various risks. Many individuals encounter online threats such as malware, fake websites, and deceptive messages that can compromise personal information. Engaging with these threats may lead to serious consequences, including data breaches, privacy violations, or financial loss.
+              The use of the internet among Filipino youths is extensive. But despite its many beneficial uses, the internet can be dangerous, too. As indicated by UNICEF, Filipino kids and adolescents often experience negative and risky experiences in the online world, which may include cyberbullying, exposure to inappropriate material, and online exploitation. Recent data have shown that more than 85% of Filipinos under age feel unsafe due to online behavior and content.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Another common situation involves the use of social media. Many users share photos, real-time locations, and personal details without fully understanding who can access this information. For example, posting that you are currently at a specific place or tagging your exact location can allow strangers to track your movements. In some cases, a stalker may use this information to follow you or locate your home, putting your personal safety at risk.
+              Online grooming may involve the use of social networks and instant messengers to establish trust in order to exploit children. Children are sometimes given cash and other valuables as incentives to perform undesirable activities. In some cases, they are intimidated and blackmailed. There have also been reports of acceptance of friend invitations by children from strangers on the internet.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              To stay safe online, individuals must practice responsible internet habits. These include creating strong passwords, avoiding suspicious websites, limiting what you share publicly, and verifying the credibility of information sources. By applying these safety measures in daily life, users can reduce the risk of becoming victims of online threats.
+              From these cases, it becomes apparent that although there are several positive aspects associated with using the internet, danger lurks in the virtual world.
             </p>
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 mt-6 sm:mt-8">Author's Reflection</h2>
+
+            <div class="flex justify-center my-6">
+              <img
+                src="assets/isnas2.png"
+                alt="Isnas Image 3"
+                class="w-full max-w-md h-40 sm:h-48 md:h-56 object-cover rounded-lg"
+              />
+            </div>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
               Reflecting on this topic, I have come to realize how important it is to be cautious and responsible when using the internet. Its convenience and accessibility can sometimes lead to carelessness, causing users to overlook potential risks. However, understanding that the internet is not always a safe space encourages me to be more mindful of my actions and the content I share online.
@@ -164,10 +182,10 @@
 
             <div class="bg-slate-900 text-white p-4 sm:p-6 rounded-xl">
               <div class="flex flex-col sm:flex-row items-start gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 lucide lucide-lock text-cyan-400 mt-1 flex-shrink-0">
-                  <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
-                  <circle cx="12" cy="16" r="1"/>
-                  <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 lucide lucide-x-circle text-[#4a5c6a] mt-1 flex-shrink-0">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="m15 9-6 6"/>
+                  <path d="m9 9 6 6"/>
                 </svg>
                 <div>
                   <p class="text-xs sm:text-sm md:text-base text-slate-200 italic mb-2">
@@ -183,9 +201,9 @@
         </article>
 
         <!-- Blog Pagination -->
-        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4343DD]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
+        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4a5c6a]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl" aria-label="Pagination">
           <div class="flex justify-between flex-1 sm:hidden">
-            <a href="part2.html" class="relative inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4343DD] to-[#0C1841] rounded-lg hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200 shadow-md">
+            <a href="part2.html" class="relative inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4a5c6a] to-[#06141b] rounded-lg hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200 shadow-md">
               Next
             </a>
           </div>
@@ -197,7 +215,7 @@
             </div>
             <div>
               <nav class="relative z-0 inline-flex rounded-lg shadow-md overflow-hidden" aria-label="Pagination">
-                <a href="part2.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4343DD] to-[#0C1841] text-white text-sm font-semibold hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200">
+                <a href="part2.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4a5c6a] to-[#06141b] text-white text-sm font-semibold hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200">
                   Next: Common Cyber Threats
                   <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />

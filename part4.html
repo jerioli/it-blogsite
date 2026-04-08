@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSafe - Part 4: Spot The Warning Signs</title>
+    <title>CyberSafe - Spot The Warning Signs</title>
     <meta property="og:image" content="https://bolt.new/static/og_default.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+      h1, h2, h3 { font-family: 'Impact', sans-serif; font-weight: bold; font-style: normal; }
+    </style>
   </head>
   <body>
-    <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-[#06141b] text-white shadow-lg sticky top-0 z-50">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div class="flex justify-between items-center h-16">
           <a
             href="home.html"
             class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4343DD;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" style="color: #4a5c6a;">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
             <span class="font-bold text-lg sm:text-xl">CyberSafe</span>
@@ -27,13 +31,13 @@
           <div class="hidden md:flex space-x-6 lg:space-x-8">
             <a
               href="home.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="hover:text-[#4343DD] transition-colors font-medium px-3 py-2 rounded-md"
+              class="hover:text-[#4a5c6a] transition-colors font-medium px-3 py-2 rounded-md"
             >
               About Us
             </a>
@@ -41,7 +45,7 @@
 
           <!-- Mobile menu button -->
           <div class="md:hidden">
-            <button id="mobile-menu-button" class="text-white hover:text-[#4343DD] focus:outline-none focus:text-[#4343DD] p-2">
+            <button id="mobile-menu-button" class="text-white hover:text-[#4a5c6a] focus:outline-none focus:text-[#4a5c6a] p-2">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
@@ -50,17 +54,17 @@
         </div>
 
         <!-- Mobile Navigation Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 mt-2 rounded-lg shadow-lg">
+        <div id="mobile-menu" class="hidden md:hidden bg-[#11212d] mt-2 rounded-lg shadow-lg">
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a
               href="home.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4a5c6a] hover:bg-[#253745] transition-colors text-white"
             >
               Home
             </a>
             <a
               href="about.html"
-              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4343DD] hover:bg-slate-700 transition-colors text-white"
+              class="block px-3 py-2 rounded-md text-base font-medium hover:text-[#4a5c6a] hover:bg-[#253745] transition-colors text-white"
             >
               About Us
             </a>
@@ -86,11 +90,11 @@
       </script>
     </nav>
 
-    <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-green-50 py-6 sm:py-8 lg:py-12">
+    <div class="min-h-screen bg-gradient-to-b from-[#ccd0cf] via-[#9babab] to-[#06141b] py-6 sm:py-8 lg:py-12">
       <div class="w-full max-w-none px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <a
           href="home.html"
-          class="inline-flex items-center text-[#4343DD] hover:text-[#0C1841] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
+          class="inline-flex items-center text-[#4a5c6a] hover:text-[#06141b] mb-6 sm:mb-8 lg:mb-10 group text-sm sm:text-base lg:text-lg transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left mr-2 group-hover:-translate-x-1 transition-transform">
             <path d="m12 19-7-7 7-7"/>
@@ -99,24 +103,24 @@
           Back to Home
         </a>
 
-        <article class="bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
-          <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
-            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4343DD] to-[#0C1841] rounded-lg flex-shrink-0">
+        <article class="bg-[#ccd0cf] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 border border-[#4a5c6a]">
+          <div class="flex flex-row items-center mb-6 sm:mb-8 lg:mb-10 gap-3 sm:gap-4 lg:gap-6">
+            <div class="p-3 sm:p-4 bg-gradient-to-br from-[#4a5c6a] to-[#06141b] rounded-lg flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search text-white w-6 h-6 sm:w-8 sm:h-8">
                 <circle cx="11" cy="11" r="8"/>
                 <path d="m21 21-4.35-4.35"/>
               </svg>
             </div>
             <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight">
-              Part 4: Spot The Warning Signs
+              Spot The Warning Signs
             </h1>
           </div>
 
           <div class="mb-6 sm:mb-8 lg:mb-10">
-            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden shadow-lg">
+            <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-200 to-slate-300 rounded-xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg"
-                alt="How to Protect Yourself Online"
+                src="assets/spot.png"
+                alt="Spot Image 1"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -145,20 +149,20 @@
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 mt-8 sm:mt-10 lg:mt-12">Real-World Application</h2>
 
+            <div class="flex justify-center my-6">
+              <img
+                src="assets/spot2.png"
+                alt="Spot Image 2"
+                class="w-full max-w-md h-40 sm:h-48 md:h-56 object-cover rounded-lg"
+              />
+            </div>
+
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Imagine you download a free game from a website you don't know. At first, it seems fun—but then your computer slows down, files go missing, or a strange message appears asking for money. That's malware trying to take control of your device.
+              Many Filipinos today are active online—whether for chatting, shopping, or managing finances—which also means they are constantly exposed to different types of digital interactions. In this environment, the ability to spot warning signs plays a crucial role in everyday decision-making. Simple clues such as unfamiliar senders, messages with poor grammar, unexpected links, or requests for sensitive information can already indicate a possible scam. Learning to pause and evaluate these signs helps users avoid risky situations before any damage is done.
             </p>
 
             <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Or maybe you see a friend's social media account asking for money or gift cards. The profile looks real, but the messages feel off. That's an impersonation scam—someone hacked their account to trick you.
-            </p>
-
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              Even connecting to free Wi-Fi at a café can be risky. Hackers can intercept your personal information without you noticing.
-            </p>
-
-            <p class="text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed mb-4 sm:mb-6">
-              In real life, spotting these warning signs—strange downloads, unusual messages, or unsafe networks—can protect your devices, money, and personal information from cyber threats.
+              For instance, the Bangko Sentral ng Pilipinas and the National Privacy Commission have consistently reminded the public not to share one-time passwords (OTPs), PINs, or personal details online. There have been multiple cases where individuals received messages that looked legitimate at first glance but contained subtle warning signs—such as slight misspellings in website links or messages creating panic to force immediate action. Those who failed to recognize these red flags often ended up compromising their accounts or losing money. This shows that being observant and critical online is one of the most effective ways to stay safe.
             </p>
 
             <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-4 mt-6 sm:mt-8">Author's Reflection</h2>
@@ -195,12 +199,12 @@
         </article>
 
         <!-- Blog Pagination -->
-        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4343DD]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" aria-label="Pagination">
+        <nav class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-slate-50 to-[#4a5c6a]/10 border border-slate-200 sm:px-8 mt-12 rounded-xl" aria-label="Pagination">
           <div class="flex justify-between flex-1 sm:hidden">
             <a href="part3.html" class="relative inline-flex items-center px-4 py-3 mr-3 text-sm font-semibold text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 transform hover:scale-105 transition-all duration-200 shadow-md">
               Previous
             </a>
-            <a href="part5.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4343DD] to-[#0C1841] rounded-lg hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200 shadow-md">
+            <a href="part5.html" class="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-[#4a5c6a] to-[#06141b] rounded-lg hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200 shadow-md">
               Next
             </a>
           </div>
@@ -218,7 +222,7 @@
                   </svg>
                   How Hackers Trick People
                 </a>
-                <a href="part5.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4343DD] to-[#0C1841] text-white text-sm font-semibold hover:from-[#0C1841] hover:to-[#4343DD] transform hover:scale-105 transition-all duration-200">
+                <a href="part5.html" class="relative inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#4a5c6a] to-[#06141b] text-white text-sm font-semibold hover:from-[#06141b] hover:to-[#4a5c6a] transform hover:scale-105 transition-all duration-200">
                   Next: How to Protect Yourself Online
                   <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
